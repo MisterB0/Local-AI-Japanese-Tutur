@@ -19,6 +19,16 @@ except ImportError:
     import pykakasi
     print("pykakasi was installed successfully.")
 
+# installs flet 0.10.0 or higher, to create a frontend for the tutor without user having to install it manually
+try:
+    import flet as ft
+except ImportError:
+    import subprocess
+    import sys
+
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "flet>=0.10.0"])
+    import flet as ft
+    print("flet was installed successfully.")
 
 
 # connect to the local Ollama server
