@@ -6,7 +6,7 @@ This app is going to be a mobile app for android and it will use the material 3 
 Currently we are at the start of the project, the AI works for now using ollama and testing using flet for android is in progress.
 
 ## Latest Updates
-**15.11.2026**
+**14.11.2026**
 
 - Designed first UI version in figma using Material 3 Expressive.
 - Started Porting to Python/flet conpartible code 
